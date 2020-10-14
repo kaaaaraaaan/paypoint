@@ -93,6 +93,11 @@ const Contact = () => {
                                     <option>5</option>
                                     </Form.Control>
                                 </Form.Group>
+                                <div className="col-md-12">
+                                        <button type="submit"
+                                                className="thm-btn contact-one__form-btn">Send Message
+                                        </button>
+                                </div>
                             </Form>
 
                             <div className="result"></div>

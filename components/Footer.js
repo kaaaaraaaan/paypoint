@@ -48,7 +48,48 @@ export default class Footer extends React.Component {
                                         <div className="row">
                                             <div className="col-lg-4">
                                                 <div className="footer-widget footer-widget__about">
-                                                    <p>PayPoinAgent Distributor<br /> Mekh Bahadur Subedi</p>
+                                                    <p>Lorem Ipsum is simply dummy text the printing and setting
+                                                        industry. Lorm Ipsum has been the industry's stanard dummy text
+                                                        ever. </p>
+                                                    <p><a href="mailto:needhelp@zimed.com">needhelp@zimed.com</a> <br/>
+                                                        <a href="tel:666-888-0000">666 888 0000</a></p>
+                                                </div>
+                                            </div>
+
+                                            <div className="col-lg-4">
+                                                <div className="footer-widget footer-widget__links">
+                                                    <h3 className="footer-widget__title">Explore</h3>
+                                                    <div className="footer-widget__links-wrap">
+                                                        <ul className="list-unstyled">
+                                                            <li><a href="#">About us</a></li>
+                                                            <li><a href="#">Our Team</a></li>
+                                                            <li><a href="#">All Features</a></li>
+                                                            <li><a href="#">Our Services</a></li>
+                                                            <li><a href="#">Latest Blog</a></li>
+                                                        </ul>
+
+                                                        <ul className="list-unstyled">
+                                                            <li><a href="#">Help</a></li>
+                                                            <li><a href="#">Support</a></li>
+                                                            <li><a href="#">Contact us</a></li>
+                                                            <li><a href="#">Privacy Policy</a></li>
+                                                            <li><a href="#">Terms & Condition</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div className="col-lg-4">
+                                                <div className="footer-widget footer-widget__subscribe">
+                                                    <h3 className="footer-widget__title">Subscribe</h3>
+                                                    <form className="footer-widget__mc-form mc-form" data-url="">
+                                                        <input type="text" name="email" placeholder="Email address" />
+                                                            <button type="submit"
+                                                                    className="thm-btn footer-widget__mc-btn">Register
+                                                                Now
+                                                            </button>
+                                                    </form>
+                                                    <div className="mc-form__response"></div>
                                                 </div>
                                             </div>
                                         </div>
